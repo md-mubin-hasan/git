@@ -124,6 +124,7 @@ Conflict resolution markers
 Branching workflow
 -Long running branches
 -Topic branches
+
 ```
 
 So you think you know git? - Scott Chacon
