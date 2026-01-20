@@ -12,16 +12,16 @@ Set your name and email before using Git for the first time:
 
 ```bash
 # Set your name (for all repositories)
-git config --global user.name "Mubin"
+git config --global user.name "mubin"
 
 # Set your email
-git config --global user.email "mubin.md.hasan@gmail.com"
+git config --global user.email "example@gmail.com"
 ```
 
 If you want to set config only for this repository (remove --global):
 ```bash
-git config user.name "Mubin"
-git config user.email "mubin.md.hasan@gmail.com"
+git config user.name "mubin"
+git config user.email "example@gmail.com"
 ```
 
 Verify your configuration:
