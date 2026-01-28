@@ -195,7 +195,7 @@ git pull
 # Or use rebase for linear history
 git pull --rebase origin master
 ```
-# Git Pull with Rebase
+#### Git Pull with Rebase
 
 Fetches changes from the remote `origin` repository's `master` branch and reapplies local commits on top of the fetched changes, creating a linear commit history instead of a merge commit.
 
