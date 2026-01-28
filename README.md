@@ -192,6 +192,9 @@ git push -d origin branchname
 # Download latest commits and merge
 git pull
 
+# Or use rebase for linear history
+git pull --rebase origin master
+```
 # Git Pull with Rebase
 
 Fetches changes from the remote `origin` repository's `master` branch and reapplies local commits on top of the fetched changes, creating a linear commit history instead of a merge commit.
@@ -202,10 +205,6 @@ Fetches changes from the remote `origin` repository's `master` branch and reappl
 - Rewrites local commit history, so use with caution on shared branches
 
 **Note:** This performs a rebase operation, which rewrites commit history. Only use on local branches that haven't been pushed or shared with others.
-
-# Or use rebase for linear history
-git pull --rebase origin master
-```
 
 ---
 
