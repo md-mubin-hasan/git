@@ -244,6 +244,12 @@ git branch -d feature-new-ui
 git branch -D feature-new-ui
 ```
 
+### Setup upstream branch
+```bash
+# To push the current branch and set the remote as upstream
+git push --set-upstream origin feature-new-ui
+```
+
 ---
 
 ## Merging Branches
